@@ -1,0 +1,88 @@
+ /* Style untuk memposisikan teks secara absolut di dalam gambar */
+        .position-relative {
+            position: relative;
+        }
+
+        .page-2 {
+            position: relative;
+        }
+
+        .position-absolute-center {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .position-2 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #page-kedua {
+            height: 1000px;
+            /* Tinggi contoh untuk memperlihatkan scroll */
+            background-color: #001524;
+            /* Warna latar */
+        }
+
+        /* Mengatur posisi dan styling teks */
+        .h1-overlay {
+            color: white;
+            /* Warna teks */
+            text-align: center;
+            /* Pusatkan teks */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            /* Bayangan teks */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /* Jenis font */
+        }
+
+        .title2 {
+            color: white;
+            /* Warna teks */
+            text-align: center;
+            /* Pusatkan teks */
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            /* Bayangan teks */
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            /* Jenis font */
+        }
+
+        .text-1 {
+            color: white;
+        }
+
+        .text-2 {
+            color: white;
+        }
+
+        .resulttext {
+            color: white;
+        }
+
+        #errorText {
+            color: red;
+        }
+
+        .footer {
+            width: 100%;
+            background-color: #a3cef1;
+            color: black;
+            height: 100px;
+            text-align: center;
+            padding: 5%;
+        }
+
+        /* Style untuk tombol Scroll Up */
+        #btnScrollUp {
+            display: none;
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 99;
+            font-size: 18px;
+            padding: 10px 20px;
+        }
